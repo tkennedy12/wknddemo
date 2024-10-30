@@ -7,8 +7,9 @@ header nav {
     'sections sections sections' 1fr / 50px 1fr 50px;
   align-items: center;
   position: fixed;
-  z-index: 2;
-  background-color: var(--background-color);
+  z-index: 200;
+  background-color: black;
+  color: white;
   width: 100vw;
   height: var(--nav-height);
   box-sizing: border-box;
@@ -16,7 +17,7 @@ header nav {
   transition: padding-bottom 0s ease-out,padding-top 0s ease-out 0s;
   margin-top: 0;
   padding: 0 16px;
-  top: 25px;
+/*  top: 25px;*/
 }
 
 header nav a:any-link {
@@ -165,6 +166,7 @@ header nav[aria-expanded='true'] .nav-tools li {
     justify-content: space-between;
     height: var(--nav-height);
     padding: 16px;
+	padding-left: 50px;
   }
 
   header nav .nav-sections > ul > li.nav-drop {
